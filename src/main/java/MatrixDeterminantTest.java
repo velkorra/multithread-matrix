@@ -6,10 +6,8 @@ import java.util.concurrent.*;
 
 public class MatrixDeterminantTest {
 
-//    private static final int N = 12;
-    private static final int N = 13;
-//    private static final String FILENAME = "matrix12.txt";
-    private static final String FILENAME = "matrix13.txt";
+    private static final int N = 17;
+    private static final String FILENAME = "matrix" + N + ".txt";
 
     @Test
     public void generateMatrix() throws IOException {
